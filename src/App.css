@@ -1,0 +1,61 @@
+#gender-table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#gender-table tr:nth-child(even){background-color: #f2f2f2;}
+#gender-table tr:hover {background-color: #ddd;}
+
+#gender-table td, #gender-table th {
+  border: 3px solid #ddd;
+  padding: 8px;
+}
+
+#gender-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#blabla td
+{
+  background-color: #4CAF50; 
+}
+
+
+/* --------------- */
+
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+
+#gen_first {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#gen_first td, #gen_first th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#gen_first tr:nth-child(even){background-color: #f2f2f2;}
+
+#gen_first tr:hover {background-color: #ddd;}
+
+#gen_first th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
